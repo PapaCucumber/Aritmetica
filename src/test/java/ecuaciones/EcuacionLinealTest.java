@@ -14,6 +14,7 @@ public class EcuacionLinealTest {
 		// A partir de aquí, el código que comprueba que la solución es correcta
 	}
 
+	//Prueba de cambio 2
 	@Test
 	public void distintosDeCeroTest() {
 		EcuacionLineal ecuacionLineal = new EcuacionLineal(1, 1); // x + 1 = 0

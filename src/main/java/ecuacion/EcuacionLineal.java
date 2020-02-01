@@ -9,6 +9,7 @@ public class EcuacionLineal {
         this.indep = indep;
     }
 
+    //Prueba de cambio
     public int ResolverEcuacion (EcuacionLineal ecuacion) throws ArithmeticException {
         if (ecuacion.x != 0) return -ecuacion.indep/ecuacion.x;
         else throw new ArithmeticException();

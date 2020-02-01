@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22fd1b64-76ff-419c-92ec-6f0da76a2371" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecuacion/EcuacionLineal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecuacion/EcuacionLineal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecuacion/EcuacionLineal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ecuaciones/EcuacionLinealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ecuaciones/EcuacionLinealTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1X3zAy1NuLjmkNoHwT0HC2st2ht" />
   <component name="ProjectViewState">
@@ -78,6 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580292284830</updated>
       <workItem from="1580292288779" duration="1694000" />
+      <workItem from="1580504205164" duration="683000" />
+      <workItem from="1580557517702" duration="965000" />
     </task>
     <servers />
   </component>
