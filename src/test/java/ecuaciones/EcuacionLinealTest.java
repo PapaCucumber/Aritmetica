@@ -11,16 +11,22 @@ public class EcuacionLinealTest {
 	@Test
 	public void terminoIndependienteCeroTest() {
 		EcuacionLineal ecuacionLineal = new EcuacionLineal(1, 0); // x + 0 = 0
-		// A partir de aquí, el código que comprueba que la solución es correcta
+
+		int actual = ecuacionLineal.resolverEcuacion();
+		int esperado = 0;
+		assertEquals(esperado, actual);
 	}
 
-	//Prueba de cambio 2
 	@Test
 	public void distintosDeCeroTest() {
 		EcuacionLineal ecuacionLineal = new EcuacionLineal(1, 1); // x + 1 = 0
-		// A partir de aquí, el código que comprueba que la solución es correcta
+		int actual = ecuacionLineal.resolverEcuacion();
+		int esperado = -1;
+
+		assertEquals(-1, actual);
 
 		ecuacionLineal = new EcuacionLineal(2, 1); // 2x + 1 = 0
-		// A partir de aquí, el código que comprueba que la solución es correcta
+		actual = ecuacionLineal.resolverEcuacion();
+		assertEquals(-0.5, actual);
 	}
 }
