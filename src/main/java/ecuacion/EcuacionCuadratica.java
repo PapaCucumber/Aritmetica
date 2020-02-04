@@ -12,6 +12,7 @@ public class EcuacionCuadratica {
     }
 
     public double[] resolverEcuacion(EcuacionCuadratica ecuacion) throws ArithmeticException {
+        double radicando = 0;
         double resultado1 = (-ecuacion.x + Math.sqrt(Math.pow(-ecuacion.x, 2) - 4 * ecuacion.x2 * ecuacion.indep))/2*ecuacion.x2;
         double resultado2 = (-ecuacion.x - Math.sqrt(Math.pow(-ecuacion.x, 2) - 4 * ecuacion.x2 * ecuacion.indep))/2*ecuacion.x2;
 

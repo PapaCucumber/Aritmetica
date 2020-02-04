@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22fd1b64-76ff-419c-92ec-6f0da76a2371" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecuacion/EcuacionCuadratica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ecuaciones/EcuacionCuadraticaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecuacion/EcuacionCuadratica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecuacion/EcuacionCuadratica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecuacion/EcuacionLineal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecuacion/EcuacionLineal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ecuaciones/EcuacionCuadraticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ecuaciones/EcuacionCuadraticaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ecuaciones/EcuacionLinealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ecuaciones/EcuacionLinealTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ecuacion/EcuacionCuadratica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ecuacion/EcuacionCuadratica.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ecuacion/EcuacionLineal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ecuacion/EcuacionLineal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ecuaciones/EcuacionCuadraticaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ecuaciones/EcuacionCuadraticaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ecuaciones/EcuacionLinealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ecuaciones/EcuacionLinealTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,7 +49,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ecuaciones" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.EcuacionLinealTest">
     <configuration name="EcuacionCuadraticaTest" type="JUnit" factoryName="JUnit">
@@ -114,6 +126,7 @@
       <workItem from="1580504205164" duration="683000" />
       <workItem from="1580557517702" duration="2180000" />
       <workItem from="1580654746978" duration="7269000" />
+      <workItem from="1580817554964" duration="5134000" />
     </task>
     <servers />
   </component>
@@ -121,29 +134,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="715" y="335" width="497" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1580820818220">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="715" y="335" width="497" height="451" key="#com.intellij.ide.util.PackageChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1580820818220" />
     <state x="730" y="724" width="898" height="743" key="#ecuaciones_in_Aritmetica" timestamp="1580659328521">
       <screen x="0" y="27" width="3840" height="2133" />
     </state>
     <state x="730" y="724" width="898" height="743" key="#ecuaciones_in_Aritmetica/0.27.3840.2133@0.27.3840.2133" timestamp="1580659328521" />
-    <state width="2322" height="632" key="GridCell.Tab.0.bottom" timestamp="1580679037679">
-      <screen x="0" y="27" width="3840" height="2133" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1580822690522">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1580294027917" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1580822690522" />
     <state width="2322" height="632" key="GridCell.Tab.0.bottom/0.27.3840.2133@0.27.3840.2133" timestamp="1580679037679" />
-    <state width="2322" height="632" key="GridCell.Tab.0.center" timestamp="1580679037678">
-      <screen x="0" y="27" width="3840" height="2133" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1580822690522">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1580294027917" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1580822690522" />
     <state width="2322" height="632" key="GridCell.Tab.0.center/0.27.3840.2133@0.27.3840.2133" timestamp="1580679037678" />
-    <state width="2322" height="632" key="GridCell.Tab.0.left" timestamp="1580679037678">
-      <screen x="0" y="27" width="3840" height="2133" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1580822690522">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1580294027917" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1580822690522" />
     <state width="2322" height="632" key="GridCell.Tab.0.left/0.27.3840.2133@0.27.3840.2133" timestamp="1580679037678" />
-    <state width="2322" height="632" key="GridCell.Tab.0.right" timestamp="1580679037678">
-      <screen x="0" y="27" width="3840" height="2133" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1580822690522">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1580294027917" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1580822690522" />
     <state width="2322" height="632" key="GridCell.Tab.0.right/0.27.3840.2133@0.27.3840.2133" timestamp="1580679037678" />
     <state width="2322" height="772" key="GridCell.Tab.1.bottom" timestamp="1580679037672">
       <screen x="0" y="27" width="3840" height="2133" />
@@ -165,5 +182,9 @@
       <screen x="0" y="27" width="3840" height="2133" />
     </state>
     <state x="920" y="806" width="517" height="581" key="RollbackChangesDialog/0.27.3840.2133@0.27.3840.2133" timestamp="1580660002682" />
+    <state x="734" y="274" width="442" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580820836505">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="734" y="274" width="442" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1580820836505" />
   </component>
 </project>
