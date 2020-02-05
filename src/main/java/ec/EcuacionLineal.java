@@ -1,10 +1,10 @@
-package ecuacion;
+package ec;
 
 public class EcuacionLineal {
     private double x;
     private double indep;
 
-    public EcuacionLineal(int x, int indep) {
+    public EcuacionLineal(double x, double indep) {
         this.x = x;
         this.indep = indep;
     }

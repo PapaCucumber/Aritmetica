@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import ecuacion.EcuacionLineal;
+import ec.EcuacionLineal;
 
 public class EcuacionLinealTest {
 
@@ -19,7 +19,7 @@ public class EcuacionLinealTest {
 			double actual = ecuacionLineal.resolverEcuacion();
 			//No debería entrar nunca aquí, si lo hace hacemos que falle el test
 			fail("Error, no da la excepción que debería");
-		} catch (ArithmeticException e) {
+		} catch (ArithmeticException DivisionEntreCero) {
 			System.out.println("Excepción capturada");
 		}
 	}
@@ -42,5 +42,5 @@ public class EcuacionLinealTest {
 	Los tests son siempre void creo
 	 */
 
-
+	//Dentro del main, hay que poner la menor cantidad de codigo posible. Más vale escribir un método void en la misma clase y llamarlo desde el main
 }
